@@ -12,11 +12,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdint.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-#include <time.h>
 
 #define HEADER_SIZE 5  /* Content type + Version + Length (1 + 2 + 2) */
 #define BUF_SIZE 65536 /* Maximum heartbleed payload is 0xFFFF */
